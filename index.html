@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paranji Janardhan Vishal — Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- JS -->
+     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="navbar" id="navbar">
+    <div class="logo" id="site-title">Paranji Janardhan Vishal — Developer Resume Portfolio</div>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home"><span>Home</span></a></li>
+            <li><a href="#projects"><span>Projects</span></a></li>
+            <li><a href="#about"><span>About</span></a></li>
+            <li><a href="#resume"><span>Resume</span></a></li>
+            <li><a href="#contact"><span>Contact</span></a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero">
+    <div id="particles-js"></div>
+    <div class="hero-inner">
+
+        <span class="badge">
+            <span class="dot"></span>
+            Available for Part-Time Internships
+        </span>
+
+        <h1 class="intro reveal">Hi, I'm</h1>
+        <h2 class="hero-name reveal">Paranji Janardhan Vishal</h2>
+
+        <p class="subtitle reveal">
+            Entry-level developer building polished web experiences and automation tools.
+            Seeking part-time internships to learn and contribute.
+        </p>
+
+        <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary reveal">
+                <svg class="icon" width="20" height="20" viewBox="0 0 24 24">
+                    <path fill="white" d="M12 5c-7.633 0-11 7-11 7s3.367 7 11 7 11-7 11-7-3.367-7-11-7z"/>
+                </svg>
+                View My Work
+            </a>
+
+            <a href="assets/resume/resume.pdf" class="btn btn-secondary" download>
+                <svg class="icon" width="20" height="20" viewBox="0 0 24 24">
+                    <path fill="black" d="M5 20h14v-2H5v2zm7-18L5.33 9h3.67v4h6V9h3.67L12 2z"/>
+                </svg>
+                Download Resume
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= ABOUT SECTION (Moved to Position 3) ================= -->
+<section id="about" class="about-section">
+    <div id="particles-about"></div>
+    <div class="about-container">
+
+        <!-- LEFT: Image -->
+        <div class="about-image-box">
+            <img src="vpj3.jpg" alt="Your Photo">
+        </div>
+
+        <!-- RIGHT: Text -->
+        <div class="about-content">
+
+            <h2 class="about-title scroll-animate">Building & Learning Every Day</h2>
+
+            <p class="about-subtitle">
+                I'm passionate about creating clean, functional web experiences.
+            </p>
+
+            <p class="about-text scroll-animate">
+                My journey in web development is driven by curiosity and a commitment
+                to continuous improvement.
+            </p>
+
+            <div class="about-feature">
+                <div class="feature-line blue"></div>
+                <i class="fa-solid fa-graduation-cap feature-icon"></i>
+                <p><strong>Continuous Learning:</strong> Always exploring new technologies.</p>
+            </div>
+
+            <div class="about-feature">
+                <div class="feature-line orange"></div>
+                <i class="fa-solid fa-users feature-icon"></i>
+                <p><strong>Team Collaboration:</strong> Working with developers.</p>
+            </div>
+
+            <div class="about-feature">
+                <div class="feature-line blue"></div>
+                <i class="fa-solid fa-rocket feature-icon"></i>
+                <p><strong>Immediate Contribution:</strong> Ready to bring value.</p>
+            </div>
+
+            <a href="#contact" class="about-btn">
+                Let’s Connect <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+
+            <div class="about-bottom-line"></div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= SKILLS SECTION (Now section 4) ================= -->
+<section class="skills-section" id="skills">
+
+    <h2 class="section-title">What I Build With</h2>
+    <p class="section-subtitle">
+        A comprehensive toolkit for creating modern, responsive web applications and automation solutions
+    </p>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <div class="skill-icon"><i class="fas fa-code"></i></div>
+            <h3>Frontend</h3>
+            <ul>
+                <li><span class="dot"></span>HTML5</li>
+                <li><span class="dot"></span>CSS3</li>
+                <li><span class="dot"></span>JavaScript (ES6+)</li>
+                <li><span class="dot"></span>Responsive Design</li>
+            </ul>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon"><i class="fas fa-server"></i></div>
+            <h3>Backend</h3>
+            <ul>
+                <li><span class="dot"></span>Python</li>
+                <li><span class="dot"></span>Automation Scripts</li>
+                <li><span class="dot"></span>API Integration</li>
+                <li><span class="dot"></span>Data Processing</li>
+            </ul>
+        </div>
+
+        <div class="skill-card scroll-animate">
+            <div class="skill-icon"><i class="fas fa-wrench"></i></div>
+            <h3>Tools</h3>
+            <ul>
+                <li><span class="dot"></span>Git</li>
+                <li><span class="dot"></span>VS Code</li>
+                <li><span class="dot"></span>Chrome DevTools</li>
+                <li><span class="dot"></span>Version Control</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PROJECTS SECTION (Now section 5) ================= -->
+<section id="projects" class="projects-section">
+
+    <h2 class="projects-title">Recent Projects</h2>
+    <p class="projects-subtitle">
+        Portfolio websites, web apps, and automation tools I’ve built
+    </p>
+
+    <!-- Slider Wrapper -->
+    <div class="projects-slider">
+
+        <!-- Left Arrow -->
+        <button class="slide-btn left-btn">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <!-- Scroll Container -->
+        <div class="projects-track">
+
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="resume build.png" alt="Resume Builder Landing Page">
+                </div>
+
+                <h3 class="project-name">Resume Builder Landing Page</h3>
+                <div class="project-status completed">✔ Completed</div>
+
+                <p class="project-desc">
+                    A clean and responsive landing page for a resume-building.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Responsive</span>
+                    <span>UI Design</span>
+                </div>
+
+                <a class="project-link" href="https://vishalparanji18.github.io/Resume-Builder/">
+                    View Project <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/project2.jpg" alt="Task Flow Manager">
+                </div>
+
+                <h3 class="project-name">Task Flow Manager</h3>
+                <div class="project-status completed">✔ Completed</div>
+
+                <p class="project-desc">Drag-and-drop productivity tool.</p>
+
+                <div class="project-tags">
+                    <span>React</span>
+                    <span>PWA</span>
+                    <span>CSS Grid</span>
+                </div>
+
+                <a class="project-link" href="#">
+                    View Project <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/project3.jpg" alt="Data Automator">
+                </div>
+
+                <h3 class="project-name">Data Automator</h3>
+                <div class="project-status">🔄 In Progress</div>
+
+                <p class="project-desc">Python automation for CSV processing.</p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>Automation</span>
+                </div>
+
+                <a class="project-link" href="#">
+                    View Project <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+            </div>
+
+            <!-- PROJECT 4 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Weather-dashboard.jpeg" alt="Weather Dashboard">
+                </div>
+
+                <h3 class="project-name">Weather Dashboard</h3>
+                <div class="project-status completed">✔ Completed</div>
+
+                <p class="project-desc">Realtime weather dashboard with API + charts.</p>
+
+                <div class="project-tags">
+                    <span>JS</span>
+                    <span>REST API</span>
+                    <span>Charts</span>
+                </div>
+
+                <a class="project-link" href="#">
+                    View Project <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Right Arrow -->
+        <button class="slide-btn right-btn">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+<section id="contact" class="contact-section scroll-animate">
+
+    <div class="contact-badge">Available for Opportunities</div>
+
+    <h2 class="contact-title reveal">Let's Work Together</h2>
+
+    <p class="contact-subtitle">
+        I'm available for part-time internships and apprenticeships.
+    </p>
+
+    <a href="mailto:vishaalpj@gmail.com" class="contact-main-btn">
+        <i class="fa-solid fa-envelope"></i> Contact Me
+    </a>
+
+    <div class="contact-links">
+        <a href="mailto:vishaalpj@gmail.com" class="contact-link"><i class="fa-solid fa-envelope"></i> Email</a>
+        <a href="https://github.com/Vishalparanji18" target="_blank" class="contact-link"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/paranjijanardhanvishal" target="_blank" class="contact-link"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+            <h3>Paranji Janardhan Vishal —<br>Developer Resume Portfolio</h3>
+        </div>
+
+        <div class="footer-links">
+            <div class="footer-col">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#resume">Resume</a>
+            </div>
+
+            <div class="footer-col">
+                <a href="#contact">Contact</a>
+                <a href="#">Terms-And-Conditions</a>
+                <a href="#">Privacy-Policy</a>
+            </div>
+        </div>
+
+    </div>
+
+    <p class="footer-bottom">
+        © 2025 Paranji Janardhan Vishal — Developer Resume Portfolio.
+    </p>
+
+</footer>
+
+</body>
+</html>
